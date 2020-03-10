@@ -1,5 +1,5 @@
 # PruebaMardom
-Es un programa de almacenamiento e inventario en el cual el usiario puede hacer solicitudes de la base de datos para verificar los datos y mantener
+Es un programa de almacenamiento e inventario en el cual el usuario puede hacer solicitudes de la base de datos para verificar los datos y mantener
 un inventario al dia sobre lo que hay en el almacen.
 Este programa fue desarrollado en Visual Studio con tecnologias como Asp.Net Core incluyendo MVC core y Angular.
 Tambien implementé Bootstrap y Node Js.
