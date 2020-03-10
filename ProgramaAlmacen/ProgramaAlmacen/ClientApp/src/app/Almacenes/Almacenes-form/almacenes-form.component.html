@@ -1,0 +1,114 @@
+
+  <h1>Agregar Almacenes</h1>
+  <!--Campo Nombre-->
+  <form class="form-horizontal" novalidate
+        (ngSubmit)="save()" [formGroup]="formGroup">
+    <fieldset>
+      <div class="form-group">
+        <label class="col-md-2 control-label"
+               for="nombreid"> Nombre</label>
+
+        <div class="col-md-8">
+          <input class="form-control"
+                 id="nombreid"
+                 type="text"
+                 required
+                 formControlName="nombre" />
+          </div>
+      </div>
+      <!--Campo descripcion-->
+      <div class="form-group">
+          
+        <label class="col-md-2 control-label"
+               for="descripcionid"> Descripción</label>
+        <div class="col-md-8">
+          <input class="form-control"
+                 id="nombreid"
+                 type="text"
+                 required
+                 formControlName="descripcion" />
+          
+        </div>
+      </div>
+
+      <!--Campo Teléfono-->
+      <div class="form-group">
+        <label class="col-md-2 control-label"
+               for="telefono"> Teléfono</label>
+        <div class="col-md-8">
+          <input class="form-control"
+                 id="telefono"
+                 type="text"
+                 required
+                 formControlName="telefono" />
+        </div>
+      </div>
+
+      <!--Campo Correo Electronico-->
+      <div class="form-group">
+        <label class="col-md-2 control-label"
+               for="correoElectronico"> Correo Electronico</label>
+        <div class="col-md-8">
+          <input class="form-control"
+                 id="correoElectronico"
+                 type="text"
+                 required
+                 formControlName="correoElectronico" />
+          </div>
+      </div>
+
+      <!--Campo Ubicación-->
+      <div class="form-group">
+        <label class="col-md-2 control-label"
+               for="ubicacion"> Ubicación</label>
+        <div class="col-md-8">
+          <input class="form-control"
+                 id="ubicacion"
+                 type="text"
+                 required
+                 formControlName="ubicacion" />
+        </div>
+      </div>
+
+      <!--Campo Capacidad de Articulos-->
+      <div class="form-group">
+        <label class="col-md-2 control-label"
+               for="capacidadArticulos"> Capacidad de Articulos</label>
+        <div class="col-md-8">
+          <input class="form-control"
+                 id="capacidadArticulos"
+                 type="text"
+                 required
+                 formControlName="capacidadArticulos" />
+         
+        </div>
+      </div>
+
+      <!--Campo proveedores-->
+      <div class="form-group">
+        <label class="col-md-2 control-label"
+               for="proveedores"> Proveedores</label>
+        <div class="col-md-8">
+          <input class="form-control"
+                 id="proveedores"
+                 type="text"
+                 required
+                 formControlName="proveedores" />
+        
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-md-4-col-md-offset-2">
+          <span>
+            <button class="btn btn-primary"
+                    type="submit"> Guardar</button>
+
+            <button class="btn"
+                    [routerLink]='["/almacenes"]'>Cancelar</button>
+          </span>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
